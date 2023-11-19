@@ -1,0 +1,113 @@
+@charset "utf-8";
+body {
+            padding: 0;
+            margin: 0;
+            font-family: "Arial", sans-serif;
+            background-color: whitesmoke;
+            font-size: 17px;
+        }
+
+        .menu-bar {
+            height: 80px;
+            background: palevioletred;
+            text-align: left;
+        }
+        .menu-bar ul {
+            display: inline-flex;
+            list-style: none;
+            color: black;
+        }
+
+        .menu-bar ul li {
+            width: 110px;
+            margin: 10px;
+            padding: 5px 10px;
+        }
+
+        .menu-bar ul li a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.1s;
+        }
+         .menu-bar ul li a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.1s;
+        }
+         .menu-bar .submenu ul li a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.1s;
+			background: palevioletred;
+			 
+			
+        }
+        .menu-bar ul li.website-logo {
+            margin: 0;
+        }
+
+        .menu-bar ul li a img {
+            width: 180px;
+            height: auto;
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+
+        .menu-bar ul li.cart {
+            padding: 5px 10px;
+            margin-left: 10px;
+        }
+
+        .menu-bar ul li.cart img {
+            width: 30px;
+            height: auto;
+            vertical-align: middle;
+        }
+
+        .menu-bar ul li a:active {
+            color: #ffc1cc;
+        }
+
+        .menu-bar ul li.active a, .menu-bar ul li a:hover {
+            color: darkviolet;
+        }
+
+        .menu-bar ul ul {
+            display: none;
+            position: absolute;
+            background-color: ghostwhite;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-bar ul li:hover > ul {
+            display: block;
+        }
+
+        .login-cart {
+            display: flex;
+            align-items: center;
+            margin-left: 40px;
+			
+        }
+       
+
+        .login-cart li {
+            margin: 0 10px;
+        }
+        .login-cart a {
+            text-decoration: none;
+            color: black;
+            transition: color 0.1s;
+        }
+
+        .login-cart a:active {
+            color: #ffc1cc;
+        }
+
+        .login-cart a:hover {
+            color: #ffc1cc;
+        }
+
+        
